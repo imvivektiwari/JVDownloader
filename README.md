@@ -23,30 +23,30 @@ Note : No deprecated methods have been used.
 ============================
 @ If you want to check to download status (downloading ,failed or completed)
 
-		ex : if(downloadTask.downloadStatus==0){
-				//then downloading	
-			 }
-			 
-		ex : if(downloadTask.downloadStatus==1){
-				//download completed
-			 }
-		
-		ex : if(downloadTask.downloadStatus==-1){
-				//then downloading failed
-			 }
+	ex : if(downloadTask.downloadStatus==0){
+		  //then downloading	
+	     }
+
+	ex : if(downloadTask.downloadStatus==1){
+		 //download completed
+              }
+
+	ex : if(downloadTask.downloadStatus==-1){
+		 //then downloading failed
+             }
 			 
 			 
 Note :	You can bind the progressBar/progressIndecator  progressProperty
-		with the progressProperty of downloadingTask
+        with the progressProperty of downloadingTask
 ==============================	
-@ How to bind the progressProperty of downloadTask in your code :	
+@ How to bind the progressProperty of downloadTask in your code.	
 	ex : 
 		ProgressIndicator p=new ProgressIndicator(); 
-        p.progressProperty().bind(downloadTask.progressProperty());
+		p.progressProperty().bind(downloadTask.progressProperty());
 	   
 	ex : 
 		ProgressBar p=new ProgressBar(); 
-        p.progressProperty().bind(downloadTask.progressProperty());
+		p.progressProperty().bind(downloadTask.progressProperty());
 	
 ==============================
 
