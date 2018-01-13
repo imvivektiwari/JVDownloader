@@ -39,7 +39,8 @@ Note : No deprecated methods have been used.
 Note :	You can bind the progressBar/progressIndecator  progressProperty
         with the progressProperty of downloadingTask
 ==============================	
-@ How to bind the progressProperty of downloadTask in your code.	
+@ How to bind the progressProperty of downloadTask in your code.
+
 	ex : 
 		ProgressIndicator p=new ProgressIndicator(); 
 		p.progressProperty().bind(downloadTask.progressProperty());
