@@ -10,15 +10,19 @@ help you to download file using java
    ex : JVDownloader downloadTask = new JVDownloader(url,path,fileName,fileExtension);
    
 2. Start Download Task
+	
 	ex : downloadTask.start();
 	
 3. Pause Download Task
+	
 	ex : downloadTask.pause();
 
 4. Resume Download Task
+	
 	ex : downloadTask.resume();
 
 5. Cancel Download Task
+	
 	ex : downloadTask.stop();
 	
 Note : No deprecated methods have been used.
