@@ -7,19 +7,21 @@ help you to download file using java
 @ How to use :
 
 1. Create Object :
-   ex : JVDownloader downloadTask = new JVDownloader(url,path,fileName,fileExtension);
+   
+   	ex : 
+   		JVDownloader downloadTask = new JVDownloader(url,path,fileName,fileExtension);
    
 2. Start Download Task
 	
-	ex : downloadTask.start();
+		ex : downloadTask.start();
 	
 3. Pause Download Task
 	
-	ex : downloadTask.pause();
+		ex : downloadTask.pause();
 
 4. Resume Download Task
 	
-	ex : downloadTask.resume();
+		ex : downloadTask.resume();
 
 5. Cancel Download Task
 	
