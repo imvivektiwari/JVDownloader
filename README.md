@@ -8,8 +8,7 @@ help you to download file using java
 
 1. Create Object :
    
-   	ex : 
-   		JVDownloader downloadTask = new JVDownloader(url,path,fileName,fileExtension);
+   		ex : JVDownloader downloadTask = new JVDownloader(url,path,fileName,fileExtension);
    
 2. Start Download Task
 	
@@ -25,7 +24,7 @@ help you to download file using java
 
 5. Cancel Download Task
 	
-	ex : downloadTask.stop();
+		ex : downloadTask.stop();
 	
 Note : No deprecated methods have been used.
 ============================
