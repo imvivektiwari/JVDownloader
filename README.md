@@ -35,7 +35,7 @@ Note : No deprecated methods have been used.
 
 	ex : if(downloadTask.downloadStatus==-1){
 		 //then downloading failed
-             }
+              }
 			 
 			 
 Note :	You can bind the progressBar/progressIndecator  progressProperty
